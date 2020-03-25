@@ -1,0 +1,11 @@
+C:\Users\carlo\Desktop\Carpeta del Anime\Musica\Musica\bin\Debug\netcoreapp3.1\Musica.exe
+C:\Users\carlo\Desktop\Carpeta del Anime\Musica\Musica\bin\Debug\netcoreapp3.1\Musica.deps.json
+C:\Users\carlo\Desktop\Carpeta del Anime\Musica\Musica\bin\Debug\netcoreapp3.1\Musica.runtimeconfig.json
+C:\Users\carlo\Desktop\Carpeta del Anime\Musica\Musica\bin\Debug\netcoreapp3.1\Musica.runtimeconfig.dev.json
+C:\Users\carlo\Desktop\Carpeta del Anime\Musica\Musica\bin\Debug\netcoreapp3.1\Musica.dll
+C:\Users\carlo\Desktop\Carpeta del Anime\Musica\Musica\bin\Debug\netcoreapp3.1\Musica.pdb
+C:\Users\carlo\Desktop\Carpeta del Anime\Musica\Musica\obj\Debug\netcoreapp3.1\Musica.csprojAssemblyReference.cache
+C:\Users\carlo\Desktop\Carpeta del Anime\Musica\Musica\obj\Debug\netcoreapp3.1\Musica.AssemblyInfoInputs.cache
+C:\Users\carlo\Desktop\Carpeta del Anime\Musica\Musica\obj\Debug\netcoreapp3.1\Musica.AssemblyInfo.cs
+C:\Users\carlo\Desktop\Carpeta del Anime\Musica\Musica\obj\Debug\netcoreapp3.1\Musica.dll
+C:\Users\carlo\Desktop\Carpeta del Anime\Musica\Musica\obj\Debug\netcoreapp3.1\Musica.pdb
