@@ -12,7 +12,9 @@ namespace Musica
         //public string song { get; set; }
         /*public List<string> Rep { get; set; }*/
         List<Cancion> ListaMusica = new List<Cancion>();
-        public string uwu { get; set; }
+        List<Cancion> songsList = new List<Cancion>();
+
+
 
         
 
@@ -29,8 +31,9 @@ namespace Musica
              cancion.nombre = Console.ReadLine();*/
             foreach (Cancion item in ListaMusica)
             {
-                if (item.genero == cancion.genero & item.album == cancion.album & item.artista == cancion.artista & item.nombre == cancion.nombre)
+                if (item.Tipo("genero") == cancion.Tipo("genero") & item.Tipo("album") == cancion.Tipo("album") & item.Tipo("artista") == cancion.Tipo("artista") & item.Tipo("nombre") == cancion.Tipo("nombre"))
                 {
+                    Console.WriteLine("Invalodio, elemento repetido");
                     return false;
                 }
 
@@ -62,16 +65,42 @@ namespace Musica
         {
             foreach(Cancion item in ListaMusica)
             {
-                Console.WriteLine(item.genero);
-                Console.WriteLine(item.artista);
-                Console.WriteLine(item.album);
-                Console.WriteLine(item.nombre);
+                Console.WriteLine(item.Tipo("genero"));
+                Console.WriteLine(item.Tipo("album"));
+                Console.WriteLine(item.Tipo("artista"));
+                Console.WriteLine(item.Tipo("nombre"));
             }
             /*Console.WriteLine(ListaMusica[0].genero);
             Console.WriteLine(ListaMusica[0].album);
             Console.WriteLine(ListaMusica.Count);*/
 
 
+            }
+        public List<Cancion> CancionesPorCriterio(String criterio, String valor)
+        {
+            //algo que borre la lista
+            songsList.Clear();
+            foreach (Cancion item in ListaMusica)
+            {
+                if (criterio == "genero" & valor == item.Tipo("genero"))
+                {
+                    songsList.Add(item);
+                }
+                else if (criterio == "album" & valor == item.Tipo("album"))
+                {
+                    songsList.Add(item);
+                }
+                else if (criterio == "artista" & valor == item.Tipo("artista"))
+                {
+                    songsList.Add(item);
+                }
+                else if (criterio == "nombre" & valor == item.Tipo("nombre"))
+                {
+                    songsList.Add(item);
+                }
+
+            }
+            return songsList;
 
 
         }

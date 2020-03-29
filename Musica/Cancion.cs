@@ -8,21 +8,41 @@ namespace Musica
 {
     class Cancion 
     {
-        public string genero { set; get; }
-        public string artista { set; get; }
-        public string album { set; get; }
-        public string nombre { set; get; }
+        private string genero { set; get; }
+        private string artista { set; get; }
+        private string album { set; get; }
+        private string nombre { set; get; }
 
 
 
-        /*public Cancion(string genero, string artista, string album, string nombre)
+        public Cancion(string genero, string artista, string album, string nombre)
         {
             this.genero = genero;
             this.artista = artista;
             this.album = album;
             this.nombre = nombre;
         }
-        */
+        
+        public string Tipo(string tipo)
+        {
+            if(tipo == "genero")
+            {
+                return genero;
+            }
+            else if(tipo == "album")
+            {
+                return album;
+            }
+            else if (tipo == "artista")
+            {
+                return artista; 
+            }
+            else if (tipo == "nombre")
+            {
+                return nombre;
+            }
+            return "0";
+        }
         public string informacion()
         {
 

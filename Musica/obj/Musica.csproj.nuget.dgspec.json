@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlo\\Desktop\\Carpeta del Anime\\Musica\\Musica\\Musica.csproj": {}
+    "C:\\Users\\carlo\\Desktop\\Carpeta del Anime\\Musica\\laboratorio-02-CarlosAkel\\Musica\\Musica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlo\\Desktop\\Carpeta del Anime\\Musica\\Musica\\Musica.csproj": {
+    "C:\\Users\\carlo\\Desktop\\Carpeta del Anime\\Musica\\laboratorio-02-CarlosAkel\\Musica\\Musica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\Desktop\\Carpeta del Anime\\Musica\\Musica\\Musica.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\Desktop\\Carpeta del Anime\\Musica\\laboratorio-02-CarlosAkel\\Musica\\Musica.csproj",
         "projectName": "Musica",
-        "projectPath": "C:\\Users\\carlo\\Desktop\\Carpeta del Anime\\Musica\\Musica\\Musica.csproj",
+        "projectPath": "C:\\Users\\carlo\\Desktop\\Carpeta del Anime\\Musica\\laboratorio-02-CarlosAkel\\Musica\\Musica.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\Desktop\\Carpeta del Anime\\Musica\\Musica\\obj\\",
+        "outputPath": "C:\\Users\\carlo\\Desktop\\Carpeta del Anime\\Musica\\laboratorio-02-CarlosAkel\\Musica\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -41,6 +41,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
